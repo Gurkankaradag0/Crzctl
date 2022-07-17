@@ -1,8 +1,30 @@
-# rzctl
-Control your mouse using razer synapse
+# Crzctl
+Control your mouse in python3 using Razer synapse
+*Main Repo: https://github.com/Sadmeme/rzctl*
 
-# Compile in x64
+## Compile in x64
 Not tested for x86
 
-# Credits
-Process Hacker - https://github.com/processhacker/processhacker
+## Install Project
+```python
+pip install https://github.com/Gurkankaradag0/Crzctl/archive/refs/heads/main.zip
+```
+
+## Usage
+```python
+import Crzctl
+if not Crzctl.init():
+    print("init failed")
+    exit(1)
+
+Crzctl.move(100,100) # mouse will go to position 100,100.
+Crzctl.click(1) # mouse left click down
+Crzctl.click(2) # mouse left click up
+Crzctl.click(3) # mouse left click down and up
+```
+
+## Donate
+[![Build](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/gurkankrdg)
+
+## Social
+[![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/g%C3%BCrkan-karada%C4%9F-bb0243205/)
