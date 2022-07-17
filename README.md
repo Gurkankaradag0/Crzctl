@@ -1,5 +1,6 @@
 # Crzctl
-Control your mouse in python3 using Razer synapse
+Control your mouse in python3 using Razer synapse.
+
 *Main Repo: https://github.com/Sadmeme/rzctl*
 
 ## Compile in x64
