@@ -1,10 +1,14 @@
 # Crzctl
-Control your mouse in python3 using Razer synapse.
+Control your mouse in python3 using Razer Synapse 3.
 
 *Main Repo: https://github.com/Sadmeme/rzctl*
 
-## Compile in x64
-Not tested for x86
+## Dependencies
+* Microsoft Visual C++ 14.0 or greater is required. 
+  Get it with "[Visual Studio 2022 - Community](https://visualstudio.microsoft.com/tr/vs/community/)" and install the "Desktop development with C++" module.
+* Razer Synapse 3 or greater is required.
+  Get it with "[Razer Synapse 3](https://www.razer.com/synapse-3)" and install all modules.
+  *No Razer hardware required.*
 
 ## Install Project
 ```python
