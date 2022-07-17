@@ -8,6 +8,7 @@ Control your mouse in python3 using Razer Synapse 3.
   Get it with "[Visual Studio 2022 - Community](https://visualstudio.microsoft.com/tr/vs/community/)" and install the "Desktop development with C++" module.
 * Razer Synapse 3 or greater is required.
   Get it with "[Razer Synapse 3](https://www.razer.com/synapse-3)" and install all modules.
+  
   *No Razer hardware required.*
 
 ## Install Project
