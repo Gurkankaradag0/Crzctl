@@ -21,10 +21,25 @@ if not Crzctl.init():
     print("init failed")
     exit(1)
 
-Crzctl.move(100,100) # mouse will go to position 100,100.
+width, height = 1920, 1080
+x, y = 100, 100
+
+x = 65536 * x // width + 1
+y = 65536 * y // height + 1
+
+Crzctl.move(x,y) # mouse will go to position 100,100.
 Crzctl.click(1) # mouse left click down
 Crzctl.click(2) # mouse left click up
-Crzctl.click(3) # mouse left click down and up
+Crzctl.click(3) # mouse left click down + up
+```
+
+```
+LEFT_DOWN = 1
+LEFT_UP = 2
+RIGHT_DOWN = 4
+RIGHT_UP = 8
+SCROLL_CLICK_DOWN = 16
+SCROLL_CLICK_UP = 32
 ```
 
 ## Donate
